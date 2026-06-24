@@ -1,0 +1,36 @@
+/*
+ * aktiv-grotesk (Adobe Typekit), self-hosted woff2.
+ * Originally delivered via use.typekit.net kit xgz4ilr.
+ * EULA: http://www.adobe.com/products/eulas/tou_typekit
+ *   - http://typekit.com/eulas/00000000000000003b9b0328  (400)
+ *   - http://typekit.com/eulas/00000000000000003b9b032d  (700)
+ *   - http://typekit.com/eulas/00000000000000003b9b032a  (500)
+ *   - http://typekit.com/eulas/000000000000000000017875  (800)
+ * © 2009-2026 Adobe Systems Incorporated. All Rights Reserved.
+ */
+
+@font-face {
+font-family:"aktiv-grotesk";
+src:url("/fonts/typekit/aktiv-grotesk-400.woff2") format("woff2");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"aktiv-grotesk";
+src:url("/fonts/typekit/aktiv-grotesk-700.woff2") format("woff2");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"aktiv-grotesk";
+src:url("/fonts/typekit/aktiv-grotesk-500.woff2") format("woff2");
+font-display:auto;font-style:normal;font-weight:500;font-stretch:normal;
+}
+
+@font-face {
+font-family:"aktiv-grotesk";
+src:url("/fonts/typekit/aktiv-grotesk-800.woff2") format("woff2");
+font-display:auto;font-style:normal;font-weight:800;font-stretch:normal;
+}
+
+.tk-aktiv-grotesk { font-family: "aktiv-grotesk",sans-serif; }
