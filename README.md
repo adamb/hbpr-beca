@@ -98,6 +98,15 @@ rewrites.
 
 ---
 
+## Uptime monitoring
+
+Uptime is monitored with [Uptime Kuma](https://uptime.kuma.pet); the public status page is at
+<https://kuma.dev.pr/status/codepr>. When the site is down, Kuma sends alerts to the dev team
+through [Pushover](https://pushover.net) (push notifications). No app-side wiring is needed —
+monitoring is configured in Kuma and Pushover, not in this repo.
+
+---
+
 ## DNS (when going live on a new domain)
 
 The custom domain is already live: `scholarship.holbertonschoolpr.com` resolves to this Pages
