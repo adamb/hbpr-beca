@@ -4,7 +4,8 @@ Scholarship portal for Holberton School Puerto Rico — [scholarship.holbertonsc
 Preview at [hbpr-beca.pages.dev](https://hbpr-beca.pages.dev).
 
 A static, fully self-hosted copy of the site, deployed via Cloudflare Pages from the
-`main` branch of [github.com/adamb/hbpr-beca](https://github.com/adamb/hbpr-beca).
+`main` branch of [github.com/adamb/hbpr-beca](https://github.com/adamb/hbpr-beca). The Pages
+project lives under the **Code Puerto Rico** Cloudflare account (`adam@code.pr`).
 
 ---
 
@@ -58,7 +59,10 @@ Only intentional outbound links remain external: the `fcpr.org` donate links and
 
 ## How we deploy
 
-Deployment is automatic — there is no build step.
+Deployment is automatic — there is no build step. The Cloudflare Pages project is connected to
+this GitHub repo and hosted under the **Code Puerto Rico** Cloudflare account (`adam@code.pr`).
+DNS for `scholarship.holbertonschoolpr.com` is already pointed at this deployment and it is
+live.
 
 1. **Edit** the static HTML/CSS/JS under `src/` locally.
 2. **Commit and push** to `main`:
@@ -96,8 +100,10 @@ rewrites.
 
 ## DNS (when going live on a new domain)
 
-Point an A/CNAME record for `scholarship.holbertonschoolpr.com` in Cloudflare DNS at this
-Pages deployment (Cloudflare auto-provisions the custom domain once the CNAME is in place).
+The custom domain is already live: `scholarship.holbertonschoolpr.com` resolves to this Pages
+deployment via a DNS record in the Code Puerto Rico Cloudflare account (`adam@code.pr`).
+For a *new* domain, add a CNAME (or A record) pointing at this Pages deployment in that same
+account and Cloudflare will auto-provision the custom domain.
 
 ---
 
